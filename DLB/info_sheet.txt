@@ -1,0 +1,49 @@
+========================================
+CS/COE 1501 Assignment Information Sheet
+----------------------------------------
+
+You must submit an information sheet with every assignment.  Also be sure
+to submit all materials following the procedures described on the
+submission procedures page.
+
+Name:  Joseph Kovalik-Haas
+
+Lecture section:  Tue/Thu 2:30 - 3:45
+
+Recitation day and time:  Thu 11-11:50
+
+Assignment #: 1
+
+Program due date: 9/25/17
+
+Handed in date: 9/25/17
+
+Source code file name(s):
+ac_test.java        // contains main
+DLB.java            // creates DLB
+ArrayMaker.java     // creates array from file
+PreviousWords.java  // stores previously guessed words
+
+
+
+Other file name(s) (if relevant):
+approach.txt
+
+
+
+
+
+
+Does your program run without error?: yes
+
+If not, what is/are the error(s) and which parts of your program run
+correctly?:
+
+
+
+
+
+
+
+Additional comments to the grader: the program runs so there were always be 5 predictions
+this being said some of the predictions may not have the same prefix

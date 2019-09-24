@@ -1,0 +1,47 @@
+========================================
+CS/COE 1501 Assignment Information Sheet
+----------------------------------------
+
+You must submit an information sheet with every assignment.  Also be sure
+to submit all materials following the procedures described on the
+submission procedures page.
+
+Name:  Joseph Kovalik-Haas
+
+Lecture section:  T/Th 2:30
+
+Recitation day and time:  Th 11-11:50
+
+Assignment #:  2
+
+Program due date:  10/12
+
+Handed in date:  10/12
+
+Source code file name(s):
+MyLZW.java
+
+
+
+
+
+Other file name(s) (if relevant):
+results.txt
+
+
+
+
+
+
+Does your program run without error?: No
+
+If not, what is/are the error(s) and which parts of your program run
+correctly?:
+Everything runs smoothly except during monitor mode when the codebook resets in expand.
+At this point the expand and compress methods are not synced properly in expand and therefore
+after this point the expanded file will not match the original file.
+Also at this point in MyLZW.java at line 121 a NullPointerException may be thrown
+if a codeword is tried to accessed from the codebook which does not exist do to
+the reset of the codebook. (In particular for all.tar)
+
+Additional comments to the grader:

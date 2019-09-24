@@ -1,0 +1,48 @@
+========================================
+CS/COE 1501 Assignment Information Sheet
+----------------------------------------
+
+You must submit an information sheet with every assignment.  Also be sure
+to submit all materials following the procedures described on the
+submission procedures page.
+
+Name:  Joseph Kovalik-Haas
+
+Lecture section:  Tu/Th 2:30 - 3:45
+
+Recitation day and time:  Th 11 am
+
+Assignment #: 4
+
+Program due date: 11/21 @ 11:59 pm
+
+Handed in date: 11/20
+
+Source code file name(s):
+NetworkAnalysis.java
+Edge.java
+Dijkstra.java
+LazyPrims.java
+MaxFlow.java
+PQ.java
+MaxPQ.java
+
+Other file name(s) (if relevant):
+
+
+
+
+Does your program run without error?: yes
+
+If not, what is/are the error(s) and which parts of your program run
+correctly?:
+
+
+
+
+
+
+
+Additional comments to the grader:
+some of the paths or numbers maybe a little different, since in the PQ
+neighboring children do not differentiate in priority.

@@ -1,0 +1,38 @@
+#!/bin/bash
+
+ALLFILES="example_files/*"
+SMALLFILES="example_files/small/*"
+
+small="example_files/small/"
+copy="example_files/copy/"
+
+bsuf="_base"
+nsuf="_n"
+rsuf="_r"
+#msuf="_m"
+lzw=".lzw"
+dot="."
+
+for f in $ALLFILES
+do
+	xbase=${f##*/}
+	name=${xbase%.*}
+	ext=${xbase##*.}
+	echo $name
+	bname=$small$name$bsuf$lzw
+	java LZW - <$f >$bname
+	endname=$copy$name$bsuf$dot$ext
+	java LZW + <$bname >$endname
+	nname=$small$name$nsuf$lzw
+	java MyLZW - n <$f >$nname
+	endname=$copy$name$nsuf$dot$ext
+	java MyLZW + <$nname >$endname
+	rname=$small$name$rsuf$lzw
+	java MyLZW - r <$f >$rname
+	endname=$copy$name$rsuf$dot$ext
+	java MyLZW + <$rname >$endname
+	mname=$small$name$msuf$lzw
+#    java MyLZW - m <$f >$mname
+#    endname=$copy$name$msuf$dot$ext
+# 	java myLZW + <$mname >$endname
+done

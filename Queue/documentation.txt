@@ -1,0 +1,19 @@
+I decided to maintain two ArrayLists, one to store Apartments by minimum price, and
+one to store Apartments by maximum footage. Each element in the ArrayLists stored a
+priority queue based on the city where the Apartments were being stored. This way you
+could keep track of the various PQ's fairly easily. This implementation isn't necessarily
+the fastest considering every time you add an element you must also sort the ArrayList
+which becomes O(nlogn) time, which would then be the same for delete. However, once the PQ's
+are added two the ArrayList, the PQ's work just like any other. But this way there is
+an easy way to find which city to place an Apartment since you can simply iterate through
+an ArrayList. This also makes it easy to add and remove new cities and not have to worry about
+that implementation. The PQ data structure used to store Apartments by city is similar to
+the code from the book, with the same runtimes. But I added an additional variable, m, to keep
+track of weather or not to create a min or max PQ, this way it wouldn't be needed to create
+two separate class files for each PQ. Also to update and delete, I implemented Java's
+HashMap so to store the cumulative values of the address, zip, and aptNum to be able
+to easily store and find a reference to the Apartment that the hash value directs too.
+The space required for this implementation is fairly large since it requires two ArrayLists
+and PQ's for each city for each ArrayList. The size being (2*n*c + size) of HashMap where
+n is the number of Apartments and c is number of cities. However, I think this is still an efficient way to
+implement the project since it makes finding what you need very easy and fairly straightforward.

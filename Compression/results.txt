@@ -1,0 +1,85 @@
+Unmodified:
+                        Original          Compressed          Ratio
+  all.tar                3 MB              1.8 MB              1.667
+  assig2.doc             87 KB             75 KB               1.160
+  bmps.tar               1.1 MB            925 KB              1.189
+  code.txt               69 KB             30 KB               2.300
+  code2.txt              53 KB             23 KB               2.304
+  edit.exe               236 KB            251 KB              0.922
+  frosty.jpg             127 KB            177 KB              0.718
+  gone_fishing.bmp       17 KB             9 KB                1.889
+  large.txt              1.2 MB            599 KB              2.003
+  Lego-big.gif           93 KB             129 KB              0.721
+  medium.txt             25 KB             13 KB               1.923
+  texts.tar              1.4 MB            1 MB                1.400
+  wacky.bmp              922 KB            4 KB                230.5
+  winnt256.bmp           157 MB            159 KB              0.987
+
+
+  Do Nothing Mode:
+                        Original          Compressed         Ratio
+    all.tar              3 MB              1.8 MB              1.667
+    assig2.doc           87 KB             40 KB               2.175
+    bmps.tar             1.1 MB            81 KB               13.58
+    code.txt             69 KB             24 KB               2.875
+    code2.txt            53 KB             20 KB               2.650
+    edit.exe             236 KB            156 KB              1.512
+    frosty.jpg           127 KB            164 KB              0.774
+    gone_fishing.bmp     17 KB             9 KB                1.889
+    large.txt            1.2 MB            498 KB              2.409
+    Lego-big.gif         93 KB             122 KB              0.762
+    medium.txt           25 KB             12 KB               2.083
+    texts.tar            1.4 MB            598 KB              2.341
+    wacky.bmp            922 KB            4 KB                230.5
+    winnt256.bmp         157 MB            63 KB               2.492
+
+  Reset Mode:
+                      Original          Compressed          Ratio
+    all.tar            3 MB              1.2 MB              2.500
+    assig2.doc         87 KB             40 KB               2.175
+    bmps.tar           1.1 MB            81 KB               13.58
+    code.txt           69 KB             24 KB               2.875
+    code2.txt          53 KB             20 KB               2.650
+    edit.exe           236 KB            152 KB              1.552
+    frosty.jpg         127 KB            171 KB              0.743
+    gone_fishing.bmp   17 KB             9 KB                1.889
+    large.txt          1.2 MB            524 KB              2.290
+    Lego-big.gif       93 KB             122 KB              0.762
+    medium.txt         25 KB             12 KB               2.083
+    texts.tar          1.4 MB            590 KB              2.372
+    wacky.bmp          922 KB            4 KB                230.5
+    winnt256.bmp       157 MB            63 KB               2.492
+
+  Monitor Mode:
+                      Original          Compressed          Ratio
+      all.tar           3 MB             1.8 MB              1.667
+      assig2.doc        87 KB            40 KB               2.175
+      bmps.tar          1.1 MB           81 KB               13.58
+      code.txt          69 KB            24 KB               2.875
+      code2.txt         53 KB            20 KB               2.650
+      edit.exe          236 KB           156 KB              1.512
+      frosty.jpg        127 KB           164 KB              0.774
+      gone_fishing.bmp  17 KB            9 KB                1.889
+      large.txt         1.2 MB           498 KB              2.409
+      Lego-big.gif      93 KB            122 KB              0.762
+      medium.txt        25 KB            12 KB               2.083
+      texts.tar         1.4 MB           598 KB              2.341
+      wacky.bmp         922 KB           4 KB                230.5
+      winnt256.bmp      157 MB           63 KB               2.492
+
+    GZip:
+                      Original          Compressed          Ratio
+      all.tar           3 MB              933 KB             3.215
+      assig2.doc        87 KB             24 KB              3.625
+      bmps.tar          1.1 MB            64 KB              17.19
+      code.txt          69 KB             15 KB              4.600
+      code2.txt         53 KB             13 KB              4.077
+      edit.exe          236 KB            127 KB             1.858
+      frosty.jpg        127 KB            127 KB             1.000
+      gone_fishing.bmp  17 KB             9 KB               1.889
+      large.txt         1.2 MB            489 KB             2.454
+      Lego-big.gif      93 KB             93 KB              1.000
+      medium.txt        25 KB             11 KB              2.272
+      texts.tar         1.4 MB            534 KB             2.622
+      wacky.bmp         922 KB            3 KB               307.3
+      winnt256.bmp      157 MB            51 KB              3.078

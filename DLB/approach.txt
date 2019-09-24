@@ -1,0 +1,5 @@
+To stores previously entered words, I decided to implement a DLB trie. This is because
+I had already implemented it before and thought it would same me time to use the same data
+structure. To use it, I read the "user_history.txt" file into the DLB, and then used
+a similar method to finding regular predictions to help find predictions based on
+previously guessed words.
